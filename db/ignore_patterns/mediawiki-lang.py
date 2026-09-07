@@ -26,7 +26,8 @@ if 'NS_SPECIAL' not in messagesOtherLang:
 specialAlias = urllib.parse.quote(re.search(r"NS_SPECIAL\s*=>\s*'([^']+)'", messagesOtherLang).group(1))
 
 # Parse special page aliases
-aliasesStr = re.search(r"\$specialPageAliases = \[(.*?)\];", messagesOtherLang, re.DOTALL).group(1)
+aliasesMatch = re.search(r"\$specialPageAliases = \[(.*?)\];", messagesOtherLang, re.DOTALL)
+aliasesStr = aliasesMatch.group(1) if aliasesMatch else ''
 aliases = {}
 for line in aliasesStr.split('\n'):
 	line = line.strip()
