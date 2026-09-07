@@ -26,7 +26,7 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)Special:(PrefixIndex|L%C3%A4nkar_hit|Bidrag|(Fillista|Bildlista)|(Anv%C3%A4ndare|Anv%C3%A4ndarlista))/.*/\\2/",
+        "([\\?&]title=|/)Special:(PrefixIndex|L%C3%A4nkar_hit|Bidrag|(Fillista|Bildlista)|(Anv%C3%A4ndare|Anv%C3%A4ndarlista))/.*/(Special:)?\\2/",
         "/Anv%C3%A4ndardiskussion:.+/Anv%C3%A4ndardiskussion:",
         "/User_blog:.+/User_blog:",
         "/Anv%C3%A4ndare:.+/Anv%C3%A4ndare:",

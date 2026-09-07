@@ -26,7 +26,7 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)Toiminnot:(Etuliiteluettelo|T%C3%A4nne_viittaavat_sivut|Muokkaukset|Tiedostoluettelo|K%C3%A4ytt%C3%A4j%C3%A4t)/.*/\\2/",
+        "([\\?&]title=|/)Toiminnot:(Etuliiteluettelo|T%C3%A4nne_viittaavat_sivut|Muokkaukset|Tiedostoluettelo|K%C3%A4ytt%C3%A4j%C3%A4t)/.*/(Toiminnot:)?\\2/",
         "/Keskustelu_k%C3%A4ytt%C3%A4j%C3%A4st%C3%A4:.+/Keskustelu_k%C3%A4ytt%C3%A4j%C3%A4st%C3%A4:",
         "/User_blog:.+/User_blog:",
         "/K%C3%A4ytt%C3%A4j%C3%A4:.+/K%C3%A4ytt%C3%A4j%C3%A4:",

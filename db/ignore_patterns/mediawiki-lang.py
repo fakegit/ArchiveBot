@@ -69,16 +69,20 @@ for frag in fragments[1:]:
 		igsetOtherLangList.append(')')
 		igsetOtherLangList.append(remainder)
 	else:
-		name = re.match('[A-Za-z]+', frag).group(0)
-		nameL = name.lower()
-		if nameL in aliases:
-			if len(aliases[nameL]) > 1:
-				igsetOtherLangList.append('(' + '|'.join(aliases[nameL]) + ')')
+		m = re.match('[A-Za-z_]+', frag)
+		if m:
+			name = m.group(0)
+			nameL = name.lower()
+			if nameL in aliases:
+				if len(aliases[nameL]) > 1:
+					igsetOtherLangList.append('(' + '|'.join(aliases[nameL]) + ')')
+				else:
+					igsetOtherLangList.append(aliases[nameL][0])
 			else:
-				igsetOtherLangList.append(aliases[nameL][0])
+				igsetOtherLangList.append(name)
+			igsetOtherLangList.append(frag[len(name):])
 		else:
-			igsetOtherLangList.append(name)
-		igsetOtherLangList.append(frag[len(name):])
+			igsetOtherLangList.append(frag)
 
 igsetOtherLang = ''.join(igsetOtherLangList)
 

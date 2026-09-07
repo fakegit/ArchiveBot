@@ -26,7 +26,7 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)Speciale:(PrefixIndex|LidhjetK%C3%ABtu|Kontributet|ListaSkedave|RreshtoP%C3%ABrdoruesit)/.*/\\2/",
+        "([\\?&]title=|/)Speciale:(PrefixIndex|LidhjetK%C3%ABtu|Kontributet|ListaSkedave|RreshtoP%C3%ABrdoruesit)/.*/(Speciale:)?\\2/",
         "/P%C3%ABrdoruesi_diskutim:.+/P%C3%ABrdoruesi_diskutim:",
         "/User_blog:.+/User_blog:",
         "/P%C3%ABrdoruesi:.+/P%C3%ABrdoruesi:",

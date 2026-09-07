@@ -26,7 +26,7 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)Especial:((P%C3%A1ginasPorPrefijo|P%C3%A1ginas_por_prefijo)|(LoQueEnlazaAqu%C3%AD|Lo_que_enlaza_aqu%C3%AD)|Contribuciones|(ListaIm%C3%A1genes|Lista_de_im%C3%A1genes)|(ListaUsuarios|Lista_de_usuarios))/.*/\\2/",
+        "([\\?&]title=|/)Especial:((P%C3%A1ginasPorPrefijo|P%C3%A1ginas_por_prefijo)|(LoQueEnlazaAqu%C3%AD|Lo_que_enlaza_aqu%C3%AD)|Contribuciones|(ListaIm%C3%A1genes|Lista_de_im%C3%A1genes)|(ListaUsuarios|Lista_de_usuarios))/.*/(Especial:)?\\2/",
         "/Usuario_discusi%C3%B3n:.+/Usuario_discusi%C3%B3n:",
         "/User_blog:.+/User_blog:",
         "/Usuario:.+/Usuario:",

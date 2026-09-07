@@ -26,7 +26,7 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)Posebno:(IndeksPrefiksa|StaJeLinkovanoOvdje|Doprinos|(Datoteke|Slike)|ListaKorisnika)/.*/\\2/",
+        "([\\?&]title=|/)Posebno:(IndeksPrefiksa|StaJeLinkovanoOvdje|Doprinos|(Datoteke|Slike)|ListaKorisnika)/.*/(Posebno:)?\\2/",
         "/Razgovor_s_korisnikom:.+/Razgovor_s_korisnikom:",
         "/User_blog:.+/User_blog:",
         "/Korisnik:.+/Korisnik:",

@@ -26,7 +26,7 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)Specjalna:(Strony_wed%C5%82ug_prefiksu|Linkuj%C4%85ce|Wk%C5%82ad|Pliki|U%C5%BCytkownicy)/.*/\\2/",
+        "([\\?&]title=|/)Specjalna:(Strony_wed%C5%82ug_prefiksu|Linkuj%C4%85ce|Wk%C5%82ad|Pliki|U%C5%BCytkownicy)/.*/(Specjalna:)?\\2/",
         "/Dyskusja_u%C5%BCytkownika:.+/Dyskusja_u%C5%BCytkownika:",
         "/User_blog:.+/User_blog:",
         "/U%C5%BCytkownik:.+/U%C5%BCytkownik:",
