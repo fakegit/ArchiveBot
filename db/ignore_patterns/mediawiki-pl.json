@@ -7,7 +7,7 @@
         "[\\?&]limit=(1|20|100|250|500)",
         "[?&]dir=prev(&|$)",
         "[\\?&]hide(minor|bots|anons|liu|myself|redirs|links|trans|patrolled)=",
-        "([\\?&]title=|/)Specjalna:((Utw%C3%B3rz_konto|Stw%C3%B3rz_konto)|Zaloguj|Wyloguj|Translate|MobileFeedback|MobileOptions|(Zmiany_w_linkowanych|Zmiany_w_linkuj%C4%85cych)|Diff|MobileDiff|CentralAuth)",
+        "([\\?&]title=|/)Specjalna:((Utw%C3%B3rz_konto|Stw%C3%B3rz_konto)|Zaloguj|Wyloguj|Translate|MobileFeedback|MobileOptions|(Zmiany_w_linkowanych|Zmiany_w_linkuj%C4%85cych)|R%C3%B3%C5%BCnica|MobileDiff|CentralAuth)",
         "([\\?&]title=|/)Specjalna:(Ask|Browse|SearchByProperty|ExportRDF|PageProperty|Properties|UnusedProperties|WantedProperties|SMWAdmin|Types|URIResolver|QueryCreator)",
         "([\\?&]title=Specjalna:(Ostatnie_zmiany|OZ)&|/Specjalna:(Ostatnie_zmiany|OZ)\\?)(.*&)?from=\\d+",
         "([\\?&]title=|/)Specjalna:(Pliki|Strony_wed%C5%82ug_prefiksu).*&amp;",
