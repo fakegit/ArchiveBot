@@ -22,6 +22,8 @@ newName = sys.argv[3]
 
 # Extract locale's Special namespace name
 if 'NS_SPECIAL' not in messagesOtherLang:
+	if '$fallback = ' in messagesOtherLang:
+		raise RuntimeError('This appears to be a fallback locale')
 	raise RuntimeError('Failed to extract special namespace name')
 specialAlias = urllib.parse.quote(re.search(r"NS_SPECIAL\s*=>\s*'([^']+)'", messagesOtherLang).group(1))
 
