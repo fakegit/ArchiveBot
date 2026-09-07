@@ -16,7 +16,8 @@
 		"^https?://video\\.seattle\\.gov/",
 		"^https?://static-clips\\.fox\\.com/",
 		"^https?://vod\\.foxnews\\.com/",
-		"^https?://cdn\\.media\\.ccc\\.de/"
+		"^https?://cdn\\.media\\.ccc\\.de/",
+		"^https?://prodamdnewsencoding\\.akamaized\\.net/.*\\.mp4$"
 	],
 	"type": "ignore_patterns"
 }
