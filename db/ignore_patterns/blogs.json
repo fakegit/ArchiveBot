@@ -43,7 +43,10 @@
         "[?&]add-to-cart=",
         "[?&](remove|undo)_item=",
         "[?&]add_to_wishlist=",
-        "/(current\\.cmp|udata\\.vst|current\\.src|current_add\\.ep)/?$"
+        "/(current\\.cmp|udata\\.vst|current\\.src|current_add\\.ep)/?$",
+        "[?&](tribe-bar-date=|eventDisplay=day(&|$))",
+        "/action~(month|week|oneday)/|/(time_limit|exact_date)~|/action~[^?]*/(cat|tag)_ids~\\d+(,\\d+)+/|/action~[^/?]+/([^?]*/)?(cat|tag)_ids~[^?]*/(cat|tag)_ids~",
+        "[?&]ai1ec=(.*\\|)?(action~(month|week|oneday)([|&]|$)|(time_limit|exact_date)~|(cat|tag)_ids~\\d+(,\\d+)+([|&]|$)|(cat|tag)_ids~[^&]*\\|(cat|tag)_ids~)"
     ],
     "type": "ignore_patterns"
 }
