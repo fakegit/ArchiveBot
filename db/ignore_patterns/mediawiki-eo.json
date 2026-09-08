@@ -30,6 +30,7 @@
         "/Uzanto-Diskuto:.+/Uzanto-Diskuto:",
         "/User_blog:.+/User_blog:",
         "/Uzanto:.+/Uzanto:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?Speciala%C4%B5o:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

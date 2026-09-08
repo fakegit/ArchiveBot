@@ -30,6 +30,7 @@
         "/%D9%88%D8%A7%D9%BE%D8%B1%D8%A7%D8%A6%D9%8A%D9%86%D8%AF%DA%99_%D8%A8%D8%AD%D8%AB:.+/%D9%88%D8%A7%D9%BE%D8%B1%D8%A7%D8%A6%D9%8A%D9%86%D8%AF%DA%99_%D8%A8%D8%AD%D8%AB:",
         "/User_blog:.+/User_blog:",
         "/%D9%88%D8%A7%D9%BE%D8%B1%D8%A7%D8%A6%D9%8A%D9%86%D8%AF%DA%99:.+/%D9%88%D8%A7%D9%BE%D8%B1%D8%A7%D8%A6%D9%8A%D9%86%D8%AF%DA%99:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?%D8%AE%D8%A7%D8%B5:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

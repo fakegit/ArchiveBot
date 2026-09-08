@@ -30,6 +30,7 @@
         "/Euverl%C3%A8k_gebroeker:.+/Euverl%C3%A8k_gebroeker:",
         "/User_blog:.+/User_blog:",
         "/Gebroeker:.+/Gebroeker:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?Speciaal:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

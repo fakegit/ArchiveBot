@@ -30,6 +30,7 @@
         "/Razgovor_s_korisnikom:.+/Razgovor_s_korisnikom:",
         "/User_blog:.+/User_blog:",
         "/Korisnik:.+/Korisnik:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?Posebno:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

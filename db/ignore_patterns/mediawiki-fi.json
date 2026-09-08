@@ -30,6 +30,7 @@
         "/Keskustelu_k%C3%A4ytt%C3%A4j%C3%A4st%C3%A4:.+/Keskustelu_k%C3%A4ytt%C3%A4j%C3%A4st%C3%A4:",
         "/User_blog:.+/User_blog:",
         "/K%C3%A4ytt%C3%A4j%C3%A4:.+/K%C3%A4ytt%C3%A4j%C3%A4:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?Toiminnot:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

@@ -30,6 +30,7 @@
         "/Kullan%C4%B1c%C4%B1_mesaj:.+/Kullan%C4%B1c%C4%B1_mesaj:",
         "/User_blog:.+/User_blog:",
         "/Kullan%C4%B1c%C4%B1:.+/Kullan%C4%B1c%C4%B1:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?%C3%96zel:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

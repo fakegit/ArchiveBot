@@ -30,6 +30,7 @@
         "/Overleg_gebruiker:.+/Overleg_gebruiker:",
         "/User_blog:.+/User_blog:",
         "/Gebruiker:.+/Gebruiker:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?Speciaal:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

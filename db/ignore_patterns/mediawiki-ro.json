@@ -30,6 +30,7 @@
         "/Discu%C8%9Bie_Utilizator:.+/Discu%C8%9Bie_Utilizator:",
         "/User_blog:.+/User_blog:",
         "/Utilizator:.+/Utilizator:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?Special:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"
