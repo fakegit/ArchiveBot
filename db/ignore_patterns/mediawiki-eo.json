@@ -26,10 +26,11 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)Speciala%C4%B5o:(Indekso_de_prefiksoj|Kio_ligas_%C4%89i_tien%3F|Kontribuoj|(Listigi_dosierojn|Listigi_bildojn|Bildolisto)|Listo_de_uzantoj)/.*/\\2/",
+        "([\\?&]title=|/)Speciala%C4%B5o:(Indekso_de_prefiksoj|Kio_ligas_%C4%89i_tien%3F|Kontribuoj|(Listigi_dosierojn|Listigi_bildojn|Bildolisto)|Listo_de_uzantoj)/.*/(Speciala%C4%B5o:)?\\2/",
         "/Uzanto-Diskuto:.+/Uzanto-Diskuto:",
         "/User_blog:.+/User_blog:",
         "/Uzanto:.+/Uzanto:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?Speciala%C4%B5o:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

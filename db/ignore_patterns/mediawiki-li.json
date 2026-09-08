@@ -26,10 +26,11 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)Speciaal:(Alle_artikele|Verwiezinge_nao_hie|Biedrage|Plaetjes|Gebroekers)/.*/\\2/",
+        "([\\?&]title=|/)Speciaal:(Alle_artikele|Verwiezinge_nao_hie|Biedrage|Plaetjes|Gebroekers)/.*/(Speciaal:)?\\2/",
         "/Euverl%C3%A8k_gebroeker:.+/Euverl%C3%A8k_gebroeker:",
         "/User_blog:.+/User_blog:",
         "/Gebroeker:.+/Gebroeker:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?Speciaal:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

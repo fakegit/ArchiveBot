@@ -26,10 +26,11 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)%D8%AE%D8%A7%D8%B5:(%D9%81%D9%87%D8%B1%D8%B3_%D8%A8%D8%A7%D8%AF%D8%A6%D8%A9|%D9%85%D8%A7%D8%B0%D8%A7_%D9%8A%D8%B5%D9%84_%D9%87%D9%86%D8%A7|%D9%85%D8%B3%D8%A7%D9%87%D9%85%D8%A7%D8%AA|(%D8%B9%D8%B1%D8%B6_%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA|%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA|%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%B5%D9%88%D8%B1)|(%D8%B9%D8%B1%D8%B6_%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%8A%D9%86|%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%8A%D9%86))/.*/\\2/",
+        "([\\?&]title=|/)%D8%AE%D8%A7%D8%B5:(%D9%81%D9%87%D8%B1%D8%B3_%D8%A8%D8%A7%D8%AF%D8%A6%D8%A9|%D9%85%D8%A7%D8%B0%D8%A7_%D9%8A%D8%B5%D9%84_%D9%87%D9%86%D8%A7|%D9%85%D8%B3%D8%A7%D9%87%D9%85%D8%A7%D8%AA|(%D8%B9%D8%B1%D8%B6_%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA|%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA|%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%B5%D9%88%D8%B1)|(%D8%B9%D8%B1%D8%B6_%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%8A%D9%86|%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%8A%D9%86))/.*/(%D8%AE%D8%A7%D8%B5:)?\\2/",
         "/%D9%86%D9%82%D8%A7%D8%B4_%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85:.+/%D9%86%D9%82%D8%A7%D8%B4_%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85:",
         "/User_blog:.+/User_blog:",
         "/%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85:.+/%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?%D8%AE%D8%A7%D8%B5:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

@@ -26,10 +26,11 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)Sp%C3%A9cial:((Index|Pr%C3%A9fixes|Prefixes)|(Pages_li%C3%A9es|PagesLi%C3%A9es|Pages_liees|PagesLiees)|Contributions|(Liste_des_fichiers|ListeDesFichiers|Liste_des_images|ListeDesImages)|(Liste_des_utilisateurs|ListeDesUtilisateurs|Utilisateurs))/.*/\\2/",
+        "([\\?&]title=|/)Sp%C3%A9cial:((Index|Pr%C3%A9fixes|Prefixes)|(Pages_li%C3%A9es|PagesLi%C3%A9es|Pages_liees|PagesLiees)|Contributions|(Liste_des_fichiers|ListeDesFichiers|Liste_des_images|ListeDesImages)|(Liste_des_utilisateurs|ListeDesUtilisateurs|Utilisateurs))/.*/(Sp%C3%A9cial:)?\\2/",
         "/Discussion_utilisateur:.+/Discussion_utilisateur:",
         "/User_blog:.+/User_blog:",
         "/Utilisateur:.+/Utilisateur:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?Sp%C3%A9cial:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

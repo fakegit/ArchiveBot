@@ -26,10 +26,11 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)Speciale:(Prefissi|PuntanoQui|(Contributi|ContributiUtente|Edit)|(File|Immagini)|(Utenti|ElencoUtenti))/.*/\\2/",
+        "([\\?&]title=|/)Speciale:(Prefissi|PuntanoQui|(Contributi|ContributiUtente|Edit)|(File|Immagini)|(Utenti|ElencoUtenti))/.*/(Speciale:)?\\2/",
         "/Discussioni_utente:.+/Discussioni_utente:",
         "/User_blog:.+/User_blog:",
         "/Utente:.+/Utente:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?Speciale:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

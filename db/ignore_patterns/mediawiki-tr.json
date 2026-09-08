@@ -7,7 +7,7 @@
         "[\\?&]limit=(1|20|100|250|500)",
         "[?&]dir=prev(&|$)",
         "[\\?&]hide(minor|bots|anons|liu|myself|redirs|links|trans|patrolled)=",
-        "([\\?&]title=|/)%C3%96zel:(HesapOlu%C5%9Ftur|(Kullan%C4%B1c%C4%B1OturumuA%C3%A7ma|Kullan%C4%B1c%C4%B1Giri%C5%9F)|(Kullan%C4%B1c%C4%B1OturumuKapatma|Kullan%C4%B1c%C4%B1%C3%87%C4%B1k%C4%B1%C5%9F)|Translate|MobileFeedback|MobileOptions|%C4%B0lgiliDe%C4%9Fi%C5%9Fiklikler|Diff|MobileDiff|CentralAuth)",
+        "([\\?&]title=|/)%C3%96zel:(HesapOlu%C5%9Ftur|(Kullan%C4%B1c%C4%B1OturumuA%C3%A7ma|Kullan%C4%B1c%C4%B1Giri%C5%9F)|(Kullan%C4%B1c%C4%B1OturumuKapatma|Kullan%C4%B1c%C4%B1%C3%87%C4%B1k%C4%B1%C5%9F)|Translate|MobileFeedback|MobileOptions|%C4%B0lgiliDe%C4%9Fi%C5%9Fiklikler|Fark|MobileDiff|CentralAuth)",
         "([\\?&]title=|/)%C3%96zel:(Ask|Browse|SearchByProperty|ExportRDF|PageProperty|Properties|UnusedProperties|WantedProperties|SMWAdmin|Types|URIResolver|QueryCreator)",
         "([\\?&]title=%C3%96zel:SonDe%C4%9Fi%C5%9Fiklikler&|/%C3%96zel:SonDe%C4%9Fi%C5%9Fiklikler\\?)(.*&)?from=\\d+",
         "([\\?&]title=|/)%C3%96zel:((DosyaListesi|DosyaListele|ResimListesi|ResimListele)|%C3%96nekDizini).*&amp;",
@@ -26,10 +26,11 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)%C3%96zel:(%C3%96nekDizini|SayfayaBa%C4%9Flant%C4%B1lar|Katk%C4%B1lar|(DosyaListesi|DosyaListele|ResimListesi|ResimListele)|(Kullan%C4%B1c%C4%B1Listesi|Kullan%C4%B1c%C4%B1Listele))/.*/\\2/",
+        "([\\?&]title=|/)%C3%96zel:(%C3%96nekDizini|SayfayaBa%C4%9Flant%C4%B1lar|Katk%C4%B1lar|(DosyaListesi|DosyaListele|ResimListesi|ResimListele)|(Kullan%C4%B1c%C4%B1Listesi|Kullan%C4%B1c%C4%B1Listele))/.*/(%C3%96zel:)?\\2/",
         "/Kullan%C4%B1c%C4%B1_mesaj:.+/Kullan%C4%B1c%C4%B1_mesaj:",
         "/User_blog:.+/User_blog:",
         "/Kullan%C4%B1c%C4%B1:.+/Kullan%C4%B1c%C4%B1:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?%C3%96zel:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"

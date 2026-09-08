@@ -22,11 +22,14 @@ newName = sys.argv[3]
 
 # Extract locale's Special namespace name
 if 'NS_SPECIAL' not in messagesOtherLang:
+	if '$fallback = ' in messagesOtherLang:
+		raise RuntimeError('This appears to be a fallback locale')
 	raise RuntimeError('Failed to extract special namespace name')
 specialAlias = urllib.parse.quote(re.search(r"NS_SPECIAL\s*=>\s*'([^']+)'", messagesOtherLang).group(1))
 
 # Parse special page aliases
-aliasesStr = re.search(r"\$specialPageAliases = \[(.*?)\];", messagesOtherLang, re.DOTALL).group(1)
+aliasesMatch = re.search(r"\$specialPageAliases = \[(.*?)\];", messagesOtherLang, re.DOTALL)
+aliasesStr = aliasesMatch.group(1) if aliasesMatch else ''
 aliases = {}
 for line in aliasesStr.split('\n'):
 	line = line.strip()
@@ -69,16 +72,20 @@ for frag in fragments[1:]:
 		igsetOtherLangList.append(')')
 		igsetOtherLangList.append(remainder)
 	else:
-		name = re.match('[A-Za-z]+', frag).group(0)
-		nameL = name.lower()
-		if nameL in aliases:
-			if len(aliases[nameL]) > 1:
-				igsetOtherLangList.append('(' + '|'.join(aliases[nameL]) + ')')
+		m = re.match('[A-Za-z_]+', frag)
+		if m:
+			name = m.group(0)
+			nameL = name.lower()
+			if nameL in aliases:
+				if len(aliases[nameL]) > 1:
+					igsetOtherLangList.append('(' + '|'.join(aliases[nameL]) + ')')
+				else:
+					igsetOtherLangList.append(aliases[nameL][0])
 			else:
-				igsetOtherLangList.append(aliases[nameL][0])
+				igsetOtherLangList.append(name)
+			igsetOtherLangList.append(frag[len(name):])
 		else:
-			igsetOtherLangList.append(name)
-		igsetOtherLangList.append(frag[len(name):])
+			igsetOtherLangList.append(frag)
 
 igsetOtherLang = ''.join(igsetOtherLangList)
 

@@ -26,10 +26,11 @@
         "[\\?&]undo(after)?=\\d+",
         "^https?://a\\.wikia-beacon\\.com/__track/",
         "^https?://beacon\\.wikia-services\\.com/__track/",
-        "([\\?&]title=|/)Speci%C3%A1ln%C3%AD:(Str%C3%A1nky_podle_za%C4%8D%C3%A1tku|(Co_odkazuje_na|Odkazuje_sem)|(P%C5%99%C3%ADsp%C4%9Bvky|Prispevky)|(Seznam_soubor%C5%AF|Seznam_souboru)|(U%C5%BEivatel%C3%A9|Uzivatele|Seznam_u%C5%BEivatel%C5%AF|Seznam_uzivatelu))/.*/\\2/",
+        "([\\?&]title=|/)Speci%C3%A1ln%C3%AD:(Str%C3%A1nky_podle_za%C4%8D%C3%A1tku|(Co_odkazuje_na|Odkazuje_sem)|(P%C5%99%C3%ADsp%C4%9Bvky|Prispevky)|(Seznam_soubor%C5%AF|Seznam_souboru)|(U%C5%BEivatel%C3%A9|Uzivatele|Seznam_u%C5%BEivatel%C5%AF|Seznam_uzivatelu))/.*/(Speci%C3%A1ln%C3%AD:)?\\2/",
         "/Diskuse_s_u%C5%BEivatelem:.+/Diskuse_s_u%C5%BEivatelem:",
         "/User_blog:.+/User_blog:",
         "/U%C5%BEivatel:.+/U%C5%BEivatel:",
+        "^https?://translatewiki\\.net/w/i\\.php\\?",
         "^https?://[^/]+\\.gamepedia\\.com/(.*[?&]title=)?Speci%C3%A1ln%C3%AD:(WikiPoints/global|ListAllUsers|AllSites)([/?&]|$)"
     ],
     "type": "ignore_patterns"
